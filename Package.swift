@@ -38,7 +38,8 @@ let package = Package(
                 .fileAccess(.userSelectedFiles, mode: .readWrite),
                 .fileAccess(.downloadsFolder, mode: .readWrite),
                 .fileAccess(.moviesFolder, mode: .readWrite),
-                .camera(purposeString: "Unknown Usage Description")
+                .camera(purposeString: "Checking the distance "),
+                .microphone(purposeString: "Unknown Usage Description")
             ],
             appCategory: .developerTools
         )
